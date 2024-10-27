@@ -7,12 +7,12 @@ st.sidebar.success("Current Page: Methodology 📖")
 
 with st.expander("Chatbot"):
     st.write("The following is the methodology for Chatbot")
-    st.image(Path.cwd() / 'Chat.jpg')
+    st.image(str(Path.cwd() / 'Chat.jpg'))
 
 with st.expander("Are you Ready For A Pet"):
     st.write("The following is the methodology for the page 'Are you Ready For A Pet'")
-    st.image(Path.cwd() / 'Quiz.jpg')
+    st.image(str(Path.cwd() / 'Quiz.jpg'))
     
 with st.expander("Getting A Pet"):
     st.write("The following is the methodology for the page 'Getting A Pet'")
-    st.image(Path.cwd() / 'maps.jpg')
+    st.image(str(Path.cwd() / 'maps.jpg'))
